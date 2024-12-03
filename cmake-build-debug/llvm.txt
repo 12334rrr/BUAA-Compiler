@@ -1,0 +1,223 @@
+@num1_1 = constant i32 1
+@num2_1 = constant i32 2
+@num3_1 = constant i32 -3
+@a_1 = constant i8 0
+@b_1 = constant i8 0
+@c_1 = constant i8 0
+store i32 , i32* %num7
+store i32 , i32* %num8
+store i32 , i32* %num9
+store i8 , i8* %g
+store i8 , i8* %h
+store i8 , i8* %i
+define void @nothing(
+) {
+entry:
+store i32 , i32* %nothing
+}
+define  @add(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+define i32 @add(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+store i32 , i32* %x
+ret i32 
+}
+define  @minus(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+define i32 @minus(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+store i32 , i32* %x
+ret i32 
+}
+define  @multi(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+define i32 @multi(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+store i32 , i32* %x
+ret i32 
+}
+define  @divide(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+define i32 @divide(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+store i32 , i32* %x
+ret i32 
+}
+define  @mod(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+define i32 @mod(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+store i32 , i32* %x
+ret i32 
+}
+define  @compare(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+define void @compare(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+ret void 
+ret void 
+ret void 
+ret void 
+ret void 
+}
+define  @printLetter(
+i8 %ch
+) {
+entry:
+define i8 @printLetter(
+i8 %ch
+) {
+entry:
+ret i8 
+}
+define void @judgeFor(
+) {
+entry:
+store i32 , i32* %j
+store i32 , i32* %m
+store i32 , i32* %n
+store i32 , i32* %p
+}
+define  @judgeEqual(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+define i32 @judgeEqual(
+i32 %num1
+, 
+i32 %num2
+) {
+entry:
+ret i32 
+ret i32 
+ret i32 
+}
+define  @judgeTrue(
+i32 %num
+) {
+entry:
+define i32 @judgeTrue(
+i32 %num
+) {
+entry:
+ret i32 
+ret i32 
+ret i32 
+}
+define i32 @main() {
+call void @nothing(
+)
+call i32 @add(
+i32 %
+, 
+i32 %
+)
+call i32 @minus(
+i32 %
+, 
+i32 %
+)
+call i32 @multi(
+i32 %
+, 
+i32 %
+)
+call i32 @divide(
+i32 %
+, 
+i32 %
+)
+call i32 @mod(
+i32 %
+, 
+i32 %
+)
+call void @compare(
+i32 %
+, 
+i32 %
+)
+call void @compare(
+i32 %
+, 
+i32 %
+)
+call void @compare(
+i32 %
+, 
+i32 %
+)
+call i8 @printLetter(
+i8 %
+)
+call void @judgeFor(
+i8 %
+)
+call i32 @judgeEqual(
+i32 %
+, 
+i32 %
+)
+call i32 @judgeEqual(
+i32 %
+, 
+i32 %
+)
+call i32 @judgeTrue(
+i32 %
+)
+call i32 @judgeTrue(
+i32 %
+)
+ret i32 
+}

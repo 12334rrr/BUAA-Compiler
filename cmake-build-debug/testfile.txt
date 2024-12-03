@@ -1,0 +1,15 @@
+int add(char a,int b){
+    return 2*a+b*10;
+}
+char sub(int a,char b){
+    return a-b;
+}
+int main(){
+    int a = -1;
+    a=-a;
+    a=-a;
+    a=-a;
+    a=100-a;
+    printf("%d",a);
+    return 0;
+}
